@@ -8,6 +8,7 @@ Then, add a new cell at the start of the notebook and paste the following comman
 Then run this command line and check that the whole folder has been sent as a folder in Google colab
 
 Then, add a new cell in the notebook and paste the following code in it
+
 import sys
 sys.path.insert(0,'/content/2024ASAS_Garcia-Launay')
 
