@@ -19,3 +19,11 @@ sys.path.insert(0,'/content/2024ASAS_Garcia-Launay')
 Run this code.
 
 Now all the python modules and inputfiles shoud be available. 
+
+This is also necessary to define properly the working directory with the wolloing code :
+
+import os
+
+pwd = os.getcwd() + '/2024ASAS_Garcia-Launay'
+
+os.chdir(pwd)
